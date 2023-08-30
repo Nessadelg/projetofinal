@@ -1,0 +1,156 @@
+html,body{
+    margin:0;
+  }
+header{
+    background-color: black;
+    color:white;
+    height: 95px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+#logo{
+    width: 79px;
+    position: absolute;
+    top:10px;
+    margin-left: 5%;
+  }
+
+#Menu{
+float:right;
+margin-right:5%;
+list-style: none;
+
+  }
+
+li{
+    float:left;
+    padding: 20px 20px 20px 20px; 
+  }
+
+li:hover{
+    background-color: lightgrey;
+
+  }
+
+#fundo{
+    background: url("Quadro.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+  }
+#titulo{
+    color: white;   
+    padding-top: 20%;
+    font-size: 70px
+  }
+  #subtitulo{
+    color: white;
+    padding-left:20%;
+    padding-right:20%;
+  }
+  #metas{
+    padding:10;
+    float:left;
+  }
+  #acao{
+      color:white;
+      border:1px white solid;
+      padding:10px 20px 10px 20px;
+  }
+  #sites{
+    color:black;
+  }
+ 
+#Desafios {
+    float:left;
+    background-color: white;
+    padding: 30px;
+  }
+  .icone1 {
+    width: 140px;
+  }
+  .icone2 {
+    width: 90px;
+  }
+  .icone3 {
+    width: 100px;
+  }
+  .icone4 {
+    width: 220px;
+  }
+  
+  .destaque{
+    float:left;
+    background-color: rgb(242, 237, 237);
+    padding: 30px;
+  }
+
+  .siglas {
+
+    
+    width: 480px;
+    height: 230px;
+  }
+
+  .coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+  }
+    
+   .dois{
+        width: 40%;
+  }
+
+  .tres{
+    width:29%;
+    padding: 0 2%;
+  }
+  .quatro{
+    width: 15%;
+  }  
+
+  .justificado{
+    text-align: justify;
+  }
+
+  .centralizado{
+    text-align: center;
+  }
+
+  #sobre{
+    padding-top:30px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  footer{
+    color:white;
+    background-color: black;
+    float:left;
+    width: 100%;
+    text-align: center;
+  }
+  @media all and (max-width:768px){
+    #menu{
+      visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro{
+      display: block;
+      width:80%;
+      padding:0;
+      margin:10px auto;
+      float: none;
+    }
+    #logodiv{
+      width:100%
+      position: relative;
+      text-align: center;
+    }
+    
+    #logo{
+      margin-left: 0;
+      transform: translateX(-50%);
+    }
+  }
